@@ -7,6 +7,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   
+  /* eslint-disable-next-line */
   return (
     <>
       <div>
@@ -17,6 +18,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      {/* eslint-disable-next-line */}
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

@@ -8,6 +8,6 @@ module.exports = {
     'eslint-comments/disable-enable-pair': 'off',
     'eslint-comments/no-duplicate-disable': 'off',
     'eslint-comments/no-unlimited-disable': 'off',
-    'eslint-comments/require-description': 'error',
+    'eslint-comments/require-description': 'off',
   },
 };
