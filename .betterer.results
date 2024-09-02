@@ -5,8 +5,8 @@
 //
 exports[`Enable eslint rules`] = {
   value: `{
-    "src/App.tsx:4118189711": [
-      [0, -1, 20, "Unexpected unlimited \'eslint-disable\' comment. Specify some rule names to disable.", "3387724021"]
+    "src/App.tsx:1473603718": [
+      [5, -1, 159, "Unexpected undescribed directive comment. Include descriptions to explain why the comment is necessary.", "2161156444"]
     ]
   }`
 };

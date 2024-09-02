@@ -6,7 +6,7 @@ const excludePaths = new RegExp(['node_modules', 'dist', 'build'].join('|'));
 module.exports = {
   'Enable eslint rules': () =>
     eslint({
-      'eslint-comments/no-unlimited-disable': 'error',
+      'eslint-comments/require-description': 'error',
     })
       .include(includePaths)
       .exclude(excludePaths),
