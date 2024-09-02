@@ -1,0 +1,15 @@
+diff --git a/node_modules/@betterer/betterer/dist/test/file-test/file.js b/node_modules/@betterer/betterer/dist/test/file-test/file.js
+index 4b2c3e1..f8fea1e 100644
+--- a/node_modules/@betterer/betterer/dist/test/file-test/file.js
++++ b/node_modules/@betterer/betterer/dist/test/file-test/file.js
+@@ -72,8 +72,8 @@ function getIssueFromPositions(lc, issueOverride) {
+         return null;
+     }
+     const [line, column, endLine, endColumn, message, overrideHash] = issueOverride;
+-    const start = lc.indexForLocation({ line, column }) || 0;
+-    const end = lc.indexForLocation({ line: endLine, column: endColumn }) || 0;
++    const start = lc.indexForLocation({ line, column: Math.max(0, column) }) || 0;
++    const end = lc.indexForLocation({ line, column: Math.max(0, endColumn) }) || 0;
+     const length = end - start;
+     return [line, column, length, message, overrideHash];
+ }

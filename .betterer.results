@@ -6,9 +6,9 @@
 exports[`Enable eslint rules`] = {
   value: `{
     "src/App.tsx:3104806048": [
-      [5, -1, 159, "Unexpected undescribed directive comment. Include descriptions to explain why the comment is necessary.", "2161156444"],
-      [9, -1, 252, "Unexpected undescribed directive comment. Include descriptions to explain why the comment is necessary.", "2997248329"],
-      [20, -1, 606, "Unexpected undescribed directive comment. Include descriptions to explain why the comment is necessary.", "4060613657"]
+      [5, -1, 30, "Unexpected undescribed directive comment. Include descriptions to explain why the comment is necessary.", "2079049198"],
+      [9, -1, 32, "Unexpected undescribed directive comment. Include descriptions to explain why the comment is necessary.", "636813117"],
+      [20, -1, 37, "Unexpected undescribed directive comment. Include descriptions to explain why the comment is necessary.", "1608597740"]
     ]
   }`
 };
